@@ -1,0 +1,16 @@
+{
+  "name": "code-20210406-sakshitripathi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "create-node-app": "^1.4.4"
+  }
+}
