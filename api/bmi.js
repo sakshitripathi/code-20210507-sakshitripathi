@@ -1,3 +1,5 @@
+
+//Helper functions for bmi calculation
 exports.formulaBmi = function (height_in_cm, weight) {
   var height = height_in_cm / 100;
   return weight / (height * height);
