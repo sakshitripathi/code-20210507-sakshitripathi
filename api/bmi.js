@@ -4,7 +4,7 @@ exports.formulaBmi = function (height_in_cm, weight) {
   var height = height_in_cm / 100;
   return weight / (height * height);
 };
-
+// Helper function to find bmi category and health risk
 exports.bmiCategoryHealthRisk = function (bmi) {
   const bmiCategory = "bmiCategory";
   const healthRisk = "healthRisk";
